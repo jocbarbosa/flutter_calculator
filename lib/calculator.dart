@@ -16,7 +16,7 @@ class _CalculatorState extends State<Calculator> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.black,
-        title: Text('Flutter calc'),
+        title: Text('Flutter calculator'),
       ),
       body: Column(
         children: <Widget>[
@@ -94,10 +94,10 @@ class _CalculatorState extends State<Calculator> {
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: <Widget>[
-                _buildKeyboardButton('AC', textColor: Colors.deepOrange),
-                _buildKeyboardButton('DEL', textColor: Colors.deepOrange),
+                _buildKeyboardButton('AC', textColor: Colors.lightGreen),
+                _buildKeyboardButton('DEL', textColor: Colors.lightGreen),
                 _buildKeyboardButton('%', textColor: Colors.deepOrange),
-                _buildKeyboardButton('+', textColor: Colors.deepOrange),
+                _buildKeyboardButton('÷', textColor: Colors.deepOrange),
               ],
             ),
           ),
